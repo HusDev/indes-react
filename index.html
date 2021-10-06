@@ -35,19 +35,22 @@
             object-fit: cover;
         }
 
+        .hero-media-image {
+            box-shadow: 48px 16px 48px transparent;
+        }
+
         .video-player {
             width: 50%;
             display: flex;
             justify-content: center;
-            border: 2px solid #4F7FC0;
-            box-shadow: 5px 5px 5px #45454540;
+            box-shadow: 0px 0px 20px #747f856e !important;
             border-radius: 20px;
-            padding: 10px;
+            padding: 20px;
             margin-top: 50px;
         }
 
         @media (min-width: 250px) and (max-width: 750px) {
-            .video-player { 
+            .video-player {
                 width: 100%;
             }
         }
@@ -102,7 +105,7 @@
                             </div>
                             <div class="hero-media-container">
                                 <img class="hero-media-image asset-light" width="50%" src="./src/images/pink.png"
-                                    style="border-radius: 20px;" alt="Hero media">
+                                    style="border-radius: 20px; 48px 16px 48px rgb(24 37 56 / 0%)" alt="Hero media">
                                 <img class="hero-media-image asset-dark" src="./src/images/hero-media-dark.svg"
                                     alt="Hero media">
                             </div>
@@ -325,6 +328,12 @@
     </div>
 
     <script src="./src/js/main.js"></script>
+    <style>
+        .hero-media-image {
+            box-shadow: 48px 16px 48px rgb(24 37 56 / 0%)
+        }
+    </style>
+
 </body>
 
 </html>
