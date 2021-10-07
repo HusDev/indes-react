@@ -9,11 +9,17 @@
 ## UIs
 
 ### LOGIN
+
+<p align="center">
 <img src="https://i.imgur.com/omBioni.png" width="250"/>
+</p>
 
 ### SETTINGS
+<p align="center">
 <img src="https://i.imgur.com/rFdj2g9.png" width="250"/>
+</p>
 
 ### HOME
+<p align="center">
 <img src="https://i.imgur.com/pKYj49o.png" width="250"/>
-
+</p>
